@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/output.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Notifications page</title>
+</head>
+<body class="font-plus">
+
+  <section class="p-6 mx-auto min-w-[343px] md:w-[730px] md:text-[1em]">
+
+    <div class="flex justify-between items-center blok mb-6">
+      <h3 class="text-very-dark-blue font-[800]">Notifications <span  class="ml-2 text-white text-[10px] bg-blue rounded-[5px] p-[2px_6px]" id="number">3</span></h3>
+      <p class="mark
+      text-grayish-blue text-[10px] font-[500] hover:text-blue hover:font-[800] hover:cursor-pointer" id="mark">Mark all as read</p>
+    </div>
+
+    <div class="posts flex bg-light-grayish-blue-1 rounded-md p-4 mb-4 cursor-pointer">
+      <img class="w-8 h-8 mr-4" src="../assets/images/avatar-mark-webber.webp" alt="">
+      <div>
+        <p class="text-grayish-blue text-[12px]"><span class="text-very-dark-blue font-[800] hover:text-blue">Mark Webber</span> reacted to your recent post <span class="text-dark-grayish-blue font-[800] hover:text-blue"> My first tournament today!</span><span class="bg-red w-2 h-2 rounded-full ml-1 inline-block"></span></p>
+        <p class="text-grayish-blue text-[12px] font-[500]">1m ago</p>
+      </div>
+    </div>
+
+    <div class="posts flex bg-light-grayish-blue-1 rounded-md p-4 mb-4 cursor-pointer">
+      <img class="w-8 h-8 mr-4" src="../assets/images/avatar-angela-gray.webp" alt="">
+      <div>
+        <p class="text-grayish-blue text-[12px]"><span class="text-very-dark-blue font-[800] hover:text-blue">Angela Gray</span> followed you<span class="bg-red w-2 h-2 rounded-full ml-1 inline-block"></span></p>
+        <p class="text-grayish-blue text-[12px] font-[500]">5m ago</p>
+      </div>
+    </div>
+
+    <div class="posts flex bg-light-grayish-blue-1 rounded-md p-4 mb-4 cursor-pointer">
+      <img class="w-8 h-8 mr-4" src="../assets/images/avatar-jacob-thompson.webp" alt="">
+      <div>
+        <p class="text-grayish-blue text-[12px]"><span class="text-very-dark-blue font-[800] hover:text-blue">Jacob Thompson</span> has joined your group <span class="text-blue font-[800]"> Chess Club</span><span class="bg-red w-2 h-2 rounded-full ml-1 inline-block"></span></p>
+        <p class="text-grayish-blue text-[12px] font-[500]">1 day ago</p>
+      </div>
+    </div>
+
+    <div class="posts flex rounded-md p-4 mb-4 cursor-pointer">
+      <img class="w-8 h-8 mr-4" src="../assets/images/avatar-rizky-hasanuddin.webp" alt="">
+      <div>
+        <p class="text-grayish-blue text-[12px]"><span class="text-very-dark-blue font-[800] hover:text-blue">Rizky Hasanuddin</span> sent you a private message<span class="bg-red w-2 h-2 rounded-full ml-1 hidden"></span></p>
+        <p class="text-grayish-blue text-[12px] font-[500]">5 days ago</p>
+        <p class="text-dark-grayish-blue text-[12px] font-[500] border-light-grayish-blue-2 border rounded-md p-3 pr-6 mt-2 hover:bg-light-grayish-blue-1 hover:border-transparent">
+          Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.
+        </p>
+      </div>
+    </div>
+    
+    <div class="posts flex rounded-md p-4 mb-4 cursor-pointer relative">
+      <img class="w-8 h-8 mr-4" src="../assets/images/avatar-kimberly-smith.webp" alt="">
+      <div>
+        <p class=" text-grayish-blue text-[12px]"><span class="text-very-dark-blue font-[800] hover:text-blue">Kimberly Smith</span> commented on your picture<span class="bg-red w-2 h-2 rounded-full ml-1 hidden"></span></p>
+        <p class="text-grayish-blue text-[12px] font-[500]">1 week ago</p>
+      </div>
+      <img class="w-8 h-8 absolute right-4" src="../assets/images/image-chess.webp" alt="">
+    </div>
+    
+    <div class="posts flex  rounded-md p-4 mb-4 cursor-pointer">
+      <img class="w-8 h-8 mr-4" src="../assets/images/avatar-nathan-peterson.webp" alt="">
+      <div>
+        <p class="text-grayish-blue text-[12px]"><span class="text-very-dark-blue font-[800] hover:text-blue">Nathan Peterson</span> reacted to your recent post <span class="text-dark-grayish-blue font-[800] hover:text-blue"> 5 end-game strategies to increase your win rate</span><span class="bg-red w-2 h-2 rounded-full ml-1 hidden"></span></p>
+        <p class="text-grayish-blue text-[12px] font-[500]">2 weeks ago</p>
+      </div>
+    </div>
+
+    <div class="posts flex rounded-md p-4 mb-4 cursor-pointer">
+      <img class="w-8 h-8 mr-4" src="../assets/images/avatar-anna-kim.webp" alt="">
+      <div>
+        <p class="text-grayish-blue text-[12px]"><span class="text-very-dark-blue font-[800] hover:text-blue">Anna Kim</span> left the group <span class="text-blue font-[800]"> Chess Club</span><span class="bg-red w-2 h-2 rounded-full ml-1 hidden"></span></p>
+        <p class="text-grayish-blue text-[12px] font-[500]">2 weeks ago</p>
+      </div>
+    </div>
+
+  </section>
+
+  <script src="./src/main.js"></script>
+
+</body>
+</html>
